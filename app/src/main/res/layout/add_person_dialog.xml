@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/add_contact_dialog_close"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="end"
+        android:layout_margin="10dp"
+        android:src="@drawable/cross" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        android:text="Enter first name"
+        android:textSize="18sp" />
+
+
+    <EditText
+        android:id="@+id/editTextAddPersonFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Karmo"
+        android:inputType="textPersonName"
+        android:padding="16dp"
+        android:textSize="21sp" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        android:text="Enter last name"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editTextAddPersonLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alteberg"
+        android:inputType="textPersonName"
+        android:padding="16dp"
+        android:textSize="21sp" />
+
+    <ImageView
+        android:id="@+id/add_contact_dialog_accept"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="end"
+        android:layout_margin="40dp"
+        android:src="@drawable/ok" />
+
+
+</LinearLayout>
